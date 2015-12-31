@@ -44,6 +44,7 @@ NULL
 #' admin1_map("canada")
 #' }
 #' @importFrom ggplot2 ggplot aes geom_polygon ggtitle
+#' @importFrom utils data
 #' @export
 #' @seealso \code{\link{admin1.map}}, \code{\link{admin1.regions}}, \code{\link{get_admin1_regions}}, and \code{\link{get_admin1_map}}
 admin1_map = function(country.name)
@@ -62,6 +63,7 @@ admin1_map = function(country.name)
 #' 
 #' Uses ?admin1.regions
 #' @export
+#' @importFrom utils data
 #' @examples 
 #' get_admin1_countries()
 get_admin1_countries = function()
@@ -74,6 +76,7 @@ get_admin1_countries = function()
 #' 
 #' @param country.name The name of the country you want the admin1 region names of.
 #' @export
+#' @importFrom utils data
 #' @examples
 #' get_admin1_regions("japan")
 #' get_admin1_regions("canada")
@@ -92,6 +95,7 @@ get_admin1_regions = function(country.name)
 #' 
 #' @param country.name The name of the country you want the admin1 map for.
 #' @export
+#' @importFrom utils data
 #' @examples
 #' \dontrun{
 #'  japan.map = get_admin1_map("japan")
