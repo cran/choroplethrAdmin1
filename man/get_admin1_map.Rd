@@ -24,4 +24,3 @@ Uses ?admin1.map. See ?admin1.regions for how countries are spelled in this map.
 \seealso{
 \code{\link{admin1.map}}, \code{\link{admin1.regions}}, \code{\link{get_admin1_regions}} and \code{\link{admin1_map}}
 }
-

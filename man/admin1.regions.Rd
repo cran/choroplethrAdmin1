@@ -17,4 +17,3 @@ head(admin1.regions)
 \seealso{
 \code{\link{admin1.map}}, \code{\link{get_admin1_regions}}, \code{\link{admin1_map}} and \code{\link{get_admin1_map}}
 }
-

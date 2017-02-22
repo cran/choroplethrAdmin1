@@ -12,4 +12,3 @@ Uses ?admin1.regions
 \examples{
 get_admin1_countries()
 }
-

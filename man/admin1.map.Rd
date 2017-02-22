@@ -26,4 +26,3 @@ The wikipedia page on "Administrative division": http://en.wikipedia.org/wiki/Ad
 \seealso{
 \code{\link{admin1.regions}}, \code{\link{get_admin1_regions}}, \code{\link{admin1_map}} and \code{\link{get_admin1_map}}
 }
-

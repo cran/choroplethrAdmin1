@@ -52,7 +52,7 @@ admin1_map = function(country.name)
   data(admin1.map, package="choroplethrAdmin1", envir=environment())
   stopifnot(country.name %in% unique(admin1.map$admin))
   
-  country.map = admin1.map[admin1.map$admin==country.name,]
+  country.map = admin1.map[admin1.map$admin %in% country.name,]
   title = paste0("Administrative Level 1 Map of ", country.name)
   ggplot(country.map, aes(long, lat, group=group)) + 
     geom_polygon() +

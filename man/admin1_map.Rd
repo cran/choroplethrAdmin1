@@ -23,4 +23,3 @@ admin1_map("canada")
 \seealso{
 \code{\link{admin1.map}}, \code{\link{admin1.regions}}, \code{\link{get_admin1_regions}}, and \code{\link{get_admin1_map}}
 }
-

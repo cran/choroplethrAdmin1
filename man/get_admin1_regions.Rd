@@ -19,4 +19,3 @@ get_admin1_regions("canada")
 \seealso{
 \code{\link{admin1.map}}, \code{\link{admin1.regions}}, \code{\link{admin1_map}} and \code{\link{get_admin1_map}}
 }
-
